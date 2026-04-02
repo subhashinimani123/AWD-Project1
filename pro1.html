@@ -1,0 +1,25 @@
+<div class="header">
+  <h1>Job Portal</h1>
+  <p id="jobCount"></p>
+</div>
+
+<div class="filters">
+  <input type="text" id="searchInput" placeholder="Search jobs..." />
+
+  <select id="companyFilter">
+    <option value="">All Companies</option>
+  </select>
+
+  <select id="roleFilter">
+    <option value="">All Roles</option>
+    <option value="Frontend">Frontend</option>
+    <option value="Backend">Backend</option>
+    <option value="Fullstack">Fullstack</option>
+  </select>
+</div>
+
+<div id="jobList" class="grid"></div>
+<p id="noJobs" class="hidden">No jobs found 😢</p>
+
+<h2>Saved Jobs</h2>
+<div id="savedJobs" class="grid"></div>

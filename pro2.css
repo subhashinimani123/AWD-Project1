@@ -1,0 +1,38 @@
+.header {
+  text-align: center;
+}
+
+#jobCount {
+  color: gray;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+  text-align: center;
+  color: red;
+}
+
+.badge {
+  background: #e3f2fd;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background: green;
+}
+
+.remove-btn {
+  background: red;
+}
